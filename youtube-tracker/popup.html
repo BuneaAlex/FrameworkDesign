@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>YouTube Time Tracker</title>
-    <style>
-      body { font-family: sans-serif; padding: 10px; width: 200px; }
-    </style>
-  </head>
-  <body>
-    <h3>Time on YouTube Today:</h3>
-    <div id="time">Loading...</div>
-    <script src="popup.js"></script>
-  </body>
+<head>
+  <link rel="stylesheet" href="pikaday.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <input type="text" id="datepicker" />
+    <div id="calendar"></div>
+    <div id="time"></div>
+    <div id="message"></div>
+
+  <script src="pikaday.js"></script>
+  <script src="popup.js"></script>
+</body>
 </html>
